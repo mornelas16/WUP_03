@@ -53,6 +53,12 @@ summary.aov(model1)
 
 The inferential test shows a small number of P-value with 0.000116, which means that this is the probability of having no difference between alcohol consumed between the 3 row options: front, middle and back, that are available for people to be seated in. 
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+This plot shows that there is a difference in the alcohol consumed between the three sections that a person can be seated in. The intervals from the front and back cross which tells us that there is not a significant difference between these two sections. On the other hand, the intervals of the back and front never cross as well as the back and middle, telling us that there is a significant difference between the amount of drinks per section. 
+
 ## Conclusions
 
 
