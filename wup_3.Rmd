@@ -60,5 +60,5 @@ plot(TukeyHSD(model1))
 This plot shows that there is a difference in the alcohol consumed between the three sections that a person can be seated in. The intervals from the front and back cross which tells us that there is not a significant difference between these two sections. On the other hand, the intervals of the back and front never cross as well as the back and middle, telling us that there is a significant difference between the amount of drinks per section. 
 
 ## Conclusions
-
+After looking over the numerical data and inferential tests we can conclude that the people who are seated in the back section are consuming more alcohol than those who are seated in the front of middle sections. The numerical data shows that there is an average of 9 drinks on average being consumed in the back sections while we have 3 drinks being averaged for the middle section and 1 drink averaged for the front section. We also got a p-value of 0.000116 which indicates that there is almost no chance of having no differences between the amount of drinks consumed by people in each section. 
 
