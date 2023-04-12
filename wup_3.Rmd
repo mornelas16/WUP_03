@@ -46,6 +46,12 @@ favstats(alcohol~Seat,data=davisdata)
 The numerical data shows that the average number of drinks for the people who are seated in the back is about 9 drinks. This is 3 times the average number of drinks for those who are seated in the middle. This is also 9 times the average number of drinks for those who are seated in the front. 
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The inferential test shows a small number of P-value with 0.000116, which means that this is the probability of having no difference between alcohol consumed between the 3 row options: front, middle and back, that are available for people to be seated in. 
 
 ## Conclusions
 
